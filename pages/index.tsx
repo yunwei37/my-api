@@ -7,17 +7,7 @@ const intervals = [
     id: '1d',
     name: 'Every Day',
     cron: '0 0 * * *',
-  },
-  {
-    id: '1w',
-    name: 'Every Week',
-    cron: '0 0 * * 0',
-  },
-  {
-    id: '1mo',
-    name: 'Every Month',
-    cron: '0 0 1 * *',
-  },
+  }
 ]
 
 const image = 'https://cron-template.vercel.app/thumbnail.png'
